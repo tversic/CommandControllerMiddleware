@@ -1,0 +1,24 @@
+.actions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.actions-list li {
+    margin-bottom: 10px;
+}
+
+.actions-list a.btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #00796b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.actions-list a.btn:hover {
+    background: #004d40;
+}

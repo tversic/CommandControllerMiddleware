@@ -1,0 +1,129 @@
+/* Existing styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 100vh;
+}
+
+.header {
+    background: #004d40;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header nav a.btn {
+    color: #fff;
+    background: #00796b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header nav a.btn:hover {
+    background: #004d40;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #004d40;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, .btn {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, select:focus, .btn:focus {
+    outline: none;
+    border-color: #00796b;
+}
+
+.btn {
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    background: #f4f4f4;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* New styles for result-box */
+.result-box {
+    white-space: pre-wrap; /* Ensures that the text wraps */
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 300px; /* Optional: restricts height */
+    overflow-y: auto; /* Adds a vertical scrollbar if content overflows */
+    color: #333;
+}
